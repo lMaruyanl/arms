@@ -1011,7 +1011,7 @@ $mail->MsgHTML($content);
   ?>
 <footer class="container-fluid text-center">
 
-      <a href="#ramonadormitory" title="To Top">
+      <a href="#ARMS" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
 </footer>
