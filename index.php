@@ -693,8 +693,8 @@ html{
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>Location 1 AMMENITIES</h2>
   <br>
+  <h2>Location 1 AMMENITIES</h2>
   <h4>What we offer</h4>
   <div class="row slideanim">
     <div class="col-sm-4" style="display:flex;">
@@ -782,8 +782,8 @@ html{
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>Location 2 AMMENITIES</h2>
   <br>
+  <h2>Location 2 AMMENITIES</h2>
   <h4>What we offer</h4>
   <div class="row slideanim">
     <div class="col-sm-4">
