@@ -508,7 +508,7 @@ html{
           </ul>
          </li>
         <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#reservation" data-toggle="modal">Reservation</a></li>
+        <li><a href="#reservation" data-toggle="modal">Application</a></li>
         <li><a data-toggle="modal" data-target="#ModalLogin">LOGIN</a></li>
 
 
