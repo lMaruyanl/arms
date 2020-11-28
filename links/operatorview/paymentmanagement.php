@@ -108,11 +108,11 @@
 				<tr class="header">
 					<th>ID</th>
 					<th>Name</th>
-          <th>Dept Slip</th>
+         				<th>Dept Slip</th>
 					<th>Date Started</th>
-          <th>Payment Status</th>
+         				<th>Payment Status</th>
 					<th>Total Due</th>
-          <th>Actions</th>
+          				<th>Actions</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -124,8 +124,8 @@
 				?>
 				<tr>
 					<td><?php echo $val['Payment_Id']; ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Name']); ?></td>
-          <td><?php echo $val['Dep_Slip']; ?></td>
+					<td><?php echo $val['Tenant_Name']; ?></td>
+         				<td><?php echo $val['Dep_Slip']; ?></td>
 					<td><?php echo $val['Date_Started']; ?></td>
           <td style="text-align:center;">
           <?php
