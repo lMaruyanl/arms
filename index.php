@@ -993,7 +993,7 @@ $mail->Host       = "smtp.gmail.com";
 $mail->Username   = "ramonadormitory@gmail.com";
 $mail->Password   = "Ramona123456";
 $mail->IsHTML(true);
-$mail->AddAddress("ramonadormitory@gmail.com", "Ramona");
+$mail->AddAddress("edward65serebi@gmail.com", "ramona");
 $mail->SetFrom($email, $name);
 $mail->AddReplyTo($email, $name);
 $mail->Subject = "This is a Feedback from the Homepage";
