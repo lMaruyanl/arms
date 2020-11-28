@@ -650,7 +650,7 @@ html{
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="Carouselpic\location1.JPG" alt="first pic" style="width:auto; height:500px; margin:auto;">
+        <img src="Carouselpic\location1.jpeg" alt="first pic" style="width:auto; height:500px; margin:auto;">
       </div>
       <div class="item">
         <img src="Carouselpic\location1\building1room1.JPG" alt="Second pic" style="width:auto; height:500px; margin:auto;">
