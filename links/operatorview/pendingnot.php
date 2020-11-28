@@ -146,7 +146,7 @@ input[type=number] {
 					<?php $n++; ?>
 					<td><?php echo $val['Tenant_Id']; ?></td>
 					<td><?php echo $val['Tenant_Name']; ?></td>
-					<td><?php echo $val['Tenant_Name']; ?></td>
+					<td><?php echo $val['location']; ?></td>
          				<td><?php echo $val['Room_Number']; ?></td>
 					<td><?php echo $val['Tenant_Contact']; ?></td>
 					<td><?php echo $val['Home_Address']; ?></td>
