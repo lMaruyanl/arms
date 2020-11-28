@@ -115,7 +115,7 @@
 				?>
 				<tr>
           <?php $n++ ?>
-					<td><?php echo mb_strtoupper($val['Announcement']); ?></td>
+					<td><?php echo $val['Announcement']; ?></td>
           <td><?php echo $val['Date_Of_Announcement']; ?></td>
 				</tr>
 				<?php
