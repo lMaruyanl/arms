@@ -917,7 +917,7 @@ $("#show-sidebar").click(function() {
       </div>
       <div class="sidebar-header">
         <div class="user-pic">
-          <img class="img-responsive img-rounded" src="../icon/admin.png"
+          <img class="img-responsive img-rounded" src="../icon/pic.png"
             alt="User picture">
         </div>
         <div class="user-info">
