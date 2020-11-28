@@ -123,7 +123,8 @@ input[type=number] {
 				<tr class="header">
 					<th>ID</th>
 					<th>Name</th>
-          <th>Room Number</th>
+					<th>Location</th>
+          				<th>Room Number</th>
 					<th>Contact</th>
 					<th>Address</th>
 					<th>Payment Status</th>
@@ -144,10 +145,11 @@ input[type=number] {
 				<tr>
 					<?php $n++; ?>
 					<td><?php echo $val['Tenant_Id']; ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Name']); ?></td>
-          <td><?php echo mb_strtoupper($val['Room_Number']); ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Contact']); ?></td>
-					<td><?php echo mb_strtoupper($val['Home_Address']); ?></td>
+					<td><?php echo $val['Tenant_Name']; ?></td>
+					<td><?php echo $val['Tenant_Name']; ?></td>
+         				<td><?php echo $val['Room_Number']; ?></td>
+					<td><?php echo $val['Tenant_Contact']; ?></td>
+					<td><?php echo $val['Home_Address']; ?></td>
           <td style="text-align:center;"><?php
           if($val['Payment_Status'] == 0){
             echo "NOT PAID <span class='fas fa-exclamation-circle'></span>";
