@@ -75,7 +75,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
   function fetch_data()
 {
-$conn = mysqli_connect("localhost", "root", "", "ramonadorm");
+$conn = mysqli_connect("us-cdbr-east-02.cleardb.com", "b05b9648d0c6c0", "def94a3c", "heroku_04694c75558c49f");
 $output = '';
 $sqlgg = "SELECT Tenant_Name, Date_Started, date_of_transaction, FORMAT(Rent,2) , FORMAT(Electric,2), FORMAT(Others,2), FORMAT(Late_Fee,2), FORMAT(Excess,2), FORMAT(Total_Due,2), FORMAT(Cash,2), Dep_Slip  FROM payment INNER JOIN tenant ON tenant.Tenant_Id=payment.Tenant_Id Where 1 AND MONTH(date_of_transaction) = ".trim($_POST['monthp'])." AND year(date_of_transaction) = ".trim($_POST['yearp']).";";
 $result = mysqli_query($conn, $sqlgg);
@@ -117,7 +117,7 @@ return $output;
 
 function fetch_data1()
 {
-$conn1 = mysqli_connect("localhost", "root", "", "ramonadorm");
+$conn1 = mysqli_connect("us-cdbr-east-02.cleardb.com", "b05b9648d0c6c0", "def94a3c", "heroku_04694c75558c49f");
 $output1 = '';
 $sqlgg1 = "SELECT * FROM tenant";
 $result1 = mysqli_query($conn1, $sqlgg1);
@@ -144,7 +144,7 @@ return $output1;
 
 function fetch_data2()
 {
-$conn2 = mysqli_connect("localhost", "root", "", "ramonadorm");
+$conn2 = mysqli_connect("us-cdbr-east-02.cleardb.com", "b05b9648d0c6c0", "def94a3c", "heroku_04694c75558c49f");
 $output2 = '';
 $sqlgg2 = "SELECT * FROM transient INNER JOIN tenant ON tenant.Tenant_Id=transient.Tenant_Id;";
 $result2 = mysqli_query($conn2, $sqlgg2);
