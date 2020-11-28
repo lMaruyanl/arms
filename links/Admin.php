@@ -1162,7 +1162,7 @@ $("#show-sidebar").click(function() {
             <span>Reports</span>
           </li>
           <li>
-            <a href="./adminview/paymentreport.php" target="myIframe">
+            <a href="../links/adminview/paymentreport.php" target="myIframe">
               <i class="fa fa-book"></i>
               <span style="Font-size:13px;">Payment Reports</span>
             </a>
