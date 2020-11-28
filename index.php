@@ -492,10 +492,10 @@ html{
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar" style="font-weight: bold;">
       <ul class="nav navbar-nav navbar-left">
       <li><a href="#">
-          <span class="icon-bar" style="padding-right:6px; padding-top: 6px; display:block;"><img src="icon/main.png"></img></span> ARMS
+          <span class="icon-bar"></span> ARMS
         </a></li>
         <li><a href="#ARMS">ABOUT</a></li>
         <li class="dropdown">
