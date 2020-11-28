@@ -1113,7 +1113,7 @@ $("#show-sidebar").click(function() {
         </div>
         <div class="user-info">
           <span class="user-name">Miss
-            <strong><?php echo mb_strtoupper($_SESSION["username"]); ?></strong>
+            <strong><?php echo $_SESSION["username"]; ?></strong>
           </span>
           <span class="user-role">Administrator</span>
           <span class="user-status">
