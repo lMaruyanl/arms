@@ -495,7 +495,7 @@ html{
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-left">
       <li><a href="#">
-          <span class="icon-bar" src="icon/main.png"></span> ARMS
+          <span class="icon-bar"><img src="icon/main.png"></img></span> ARMS
         </a></li>
         <li><a href="#ARMS">ABOUT</a></li>
         <li class="dropdown">
