@@ -401,7 +401,7 @@ if(isset($_POST['changep'])){
 <html lang="en">
 
 <head>
-  <title>Apartment Rental System</title>
+  <title>Apartment Rental Management System</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
