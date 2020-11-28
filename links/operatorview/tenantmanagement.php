@@ -123,7 +123,8 @@ input[type=number] {
 				<tr class="header">
 					<th>ID</th>
 					<th>Name</th>
-          <th>Room Number</th>
+					<th>location</th>
+          				<th>Room Number</th>
 					<th>Contact</th>
 					<th>Address</th>
 					<th>Rent Valid until</th>
@@ -144,11 +145,12 @@ input[type=number] {
 				<tr>
 					<?php $n++; ?>
 					<td><?php echo $val['Tenant_Id']; ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Name']); ?></td>
-          <td><?php echo mb_strtoupper($val['roomnumber']); ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Contact']); ?></td>
-					<td><?php echo mb_strtoupper($val['Home_Address']); ?></td>
-					<td><?php echo mb_strtoupper($val['rentvalidity']); ?></td>
+					<td><?php echo $val['Tenant_Name']; ?></td>
+					<td><?php echo $val['location']; ?></td>
+        				<td><?php echo $val['roomnumber']; ?></td>
+					<td><?php echo $val['Tenant_Contact']; ?></td>
+					<td><?php echo $val['Home_Address']; ?></td>
+					<td><?php echo $val['rentvalidity']; ?></td>
 					<?php $Hello[$n-2] = $val['Tenant_Id']; ?>
 
           <td style="text-align:center;">
@@ -382,7 +384,7 @@ input[type=number] {
 															</div>
 															<div class="form-group">
 																<label>Full Name</label>
-																<input id="inputField" onkeyup="validate();" type="text" name = "editfullname" class="form-control" value="<?php echo mb_strtoupper($TenantRES['Tenant_Name']); ?>" required>
+																<input id="inputField" onkeyup="validate();" type="text" name = "editfullname" class="form-control" value="<?php echo $TenantRES['Tenant_Name']; ?>" required>
 															</div>
 
 															<div class="form-group">
