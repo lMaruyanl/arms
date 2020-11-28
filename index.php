@@ -298,7 +298,7 @@ if(isset($_POST['login'])){
     border-color: white;
     text-align: center;
     color: whitesmoke;
-    width: 200px;
+    width: 400px;
 
 }
 .homepagetext2 {
@@ -310,7 +310,7 @@ if(isset($_POST['login'])){
     border-style: solid;
     border-color: white;
     color: whitesmoke;
-    width: 200px;
+    width: 400px;
 
 }
 .homepagetext3 {
