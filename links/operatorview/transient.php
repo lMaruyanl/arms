@@ -123,11 +123,11 @@
 				<tr>
 					<?php $n++; ?>
 					<td><?php echo $val['Guest_Id']; ?></td>
-					<td><?php echo mb_strtoupper($val['Guest_Name']); ?></td>
-         			<td><?php echo $val['Contact']; ?></td>
+					<td><?php echo $val['Guest_Name']; ?></td>
+         				<td><?php echo $val['Contact']; ?></td>
 					<td><?php echo $val['guest_email']; ?></td>
-          			<td><?php echo ($val['date']); ?></td>
-		  			<td><?php echo ($val['time']); ?></td>
+          			<	td><?php echo  $val['date']; ?></td>
+		  			<td><?php echo $val['time']; ?></td>
           <!--<td style="text-align:center;">
           <?php
         //if($val['Transient_Status'] == 0){
