@@ -1102,7 +1102,7 @@ $("#show-sidebar").click(function() {
   <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-content">
       <div class="sidebar-brand">
-        <a href="#">Apartment Rental System</a>
+        <a href="#">Apartment Rental Management System</a>
         <div id="close-sidebar">
           <i class="fas fa-times"></i>
         </div>
@@ -1144,13 +1144,13 @@ $("#show-sidebar").click(function() {
             <div class="sidebar-submenu">
               <ul>
                 <li>
-                  <a href="adminview/tenantinfo.php" target="myIframe">Tenant Information</a>
+                  <a href="AdminView/tenantinfo.php" target="myIframe">Tenant Information</a>
                 </li>
                 <li>
-                  <a href="adminview/roominfo.php" target="myIframe">Room Information</a>
+                  <a href="AdminView/roominfo.php" target="myIframe">Room Information</a>
                 </li>
                 <li>
-                  <a href="adminview/transview.php" target="myIframe">Transient Application</a>
+                  <a href="AdminView/transview.php" target="myIframe">Transient Application</a>
                 </li>
               </ul>
             </div>
