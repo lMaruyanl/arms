@@ -870,7 +870,7 @@ html{
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="Carouselpic\location1.jpg" alt="first pic" style="width:auto; height:500px; margin:auto;">
+        <img src="Carouselpic\location3.jpg" alt="first pic" style="width:auto; height:500px; margin:auto;">
       </div>
       <div class="item">
         <img src="Carouselpic\location1\building1room1.jpg" alt="Second pic" style="width:auto; height:500px; margin:auto;">
@@ -887,11 +887,11 @@ html{
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#mylocation1" data-slide="prev">
+    <a class="left carousel-control" href="#mylocation3" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#mylocation1" data-slide="next">
+    <a class="right carousel-control" href="#mylocation3" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
