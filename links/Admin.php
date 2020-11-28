@@ -1214,7 +1214,7 @@ $("#show-sidebar").click(function() {
   <main class="page-content">
 
     <div class="embed-responsive" style="height:590px; width:98%; left:1%; text-align:center;" >
-    <iframe src="adminview/announcement.php"class="embed-responsive-item" name="myIframe" allowfullscreen></iframe>
+    <iframe src="AdminView/announcement.php"class="embed-responsive-item" name="myIframe" allowfullscreen></iframe>
 
 
     </div>
