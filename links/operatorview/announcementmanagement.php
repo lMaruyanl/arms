@@ -123,7 +123,7 @@
 				<tr>
           <?php $n++ ?>
 					<td><?php echo $val['A_ID']; ?></td>
-					<td><?php echo mb_strtoupper($val['Announcement']); ?></td>
+					<td><?php echo $val['Announcement']; ?></td>
           <td><?php echo $val['Date_Of_Announcement']; ?></td>
 
           <td style="text-align:center;">
