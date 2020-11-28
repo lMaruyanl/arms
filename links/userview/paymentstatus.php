@@ -96,7 +96,7 @@
 				?>
 				<tr>
 					<td><?php echo $val['Payment_Id']; ?></td>
-					<td><?php echo mb_strtoupper($val['Tenant_Name']); ?></td>
+					<td><?php echo $val['Tenant_Name']; ?></td>
           <td><?php echo $val['Dep_Slip']; ?></td>
 					<td><?php echo $val['Date_Started']; ?></td>
           <td style="text-align:center;">
