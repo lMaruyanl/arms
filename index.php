@@ -494,10 +494,7 @@ html{
     </div>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-weight: bold;">
       <ul class="nav navbar-nav navbar-left">
-      <li><a href="#">
-          <span class="icon-bar"></span> ARMS
-        </a></li>
-        <li><a href="#ARMS">ABOUT</a></li>
+        <li><a href="#ARMS">ARMS</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#locations">
           Locations <span class="caret"></span></a>
