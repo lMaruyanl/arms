@@ -1036,7 +1036,7 @@ $("#show-sidebar").click(function() {
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
           <div class="modal-header">
             <h4 class="modal-title">Change Password</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
           </div>
           <div class="modal-body">
             <div class="form-group <?php echo (!empty($new_password_err)) ? 'has-error' : ''; ?>">
@@ -1067,7 +1067,7 @@ $("#show-sidebar").click(function() {
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
           <div class="modal-header">
             <h4 class="modal-title">Add Operator <span class="badge badge-info">Format for password : 6 characters, no spaces</span></h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
           </div>
           <div class="modal-body">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>" >
@@ -1087,7 +1087,7 @@ $("#show-sidebar").click(function() {
             </div>
           </div>
           <div class="modal-footer">
-            <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
             <input type="submit" class="btn btn-success" value="Submit" name ="Addm">
           </div>
         </form>
@@ -1226,7 +1226,7 @@ $("#show-sidebar").click(function() {
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data">
           <div class="modal-header">
             <h4 class="modal-title">Please Select Month and Year to print</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
           </div>
           <div class="modal-body">
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -1263,7 +1263,7 @@ $("#show-sidebar").click(function() {
 
 
 
-          <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+          <a class="btn btn-link" href="Admin.php">Cancel</a>
             <input type="submit" onsubmit="setTimeout(function () { window.location.reload(); }, 10)" class="btn btn-danger" data-dismiss="static" name ="PrintPayment" value="Print">
           </div>
         </form>
@@ -1294,7 +1294,7 @@ $("#show-sidebar").click(function() {
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data">
           <div class="modal-header">
             <h4 class="modal-title">Are you sure to print report for Tenant list</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
           </div>
           <div class="modal-body">
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -1307,7 +1307,7 @@ $("#show-sidebar").click(function() {
             </div>
           </div>
           <div class="modal-footer">
-            <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
             <input type="submit" onsubmit="setTimeout(function () { window.location.reload(); }, 10)" class="btn btn-danger" data-dismiss="static" name ="PrintTenant" value="Print">
           </div>
         </form>
@@ -1327,7 +1327,7 @@ $("#show-sidebar").click(function() {
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data">
           <div class="modal-header">
             <h4 class="modal-title">Are you sure to print report for Transient list</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
           </div>
           <div class="modal-body">
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
