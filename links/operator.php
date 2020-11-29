@@ -1160,7 +1160,7 @@ $("#show-sidebar").click(function() {
             </div>
           </div>
           <div class="modal-footer">
-            <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+            <a class="btn btn-link" href="Admin.php">Cancel</a>
             <input type="submit" onsubmit="setTimeout(function () { window.location.reload(); }, 10)" class="btn btn-danger" data-dismiss="static" name ="PrintTenant" value="Print">
           </div>
         </form>
