@@ -110,11 +110,11 @@ if(isset($_POST['login'])){
   <link rel="icon" href="icon/main.png">
   <style>
   @font-face {
-    src: url(text/Anton-Regular.ttf);
+    src: url(Text/Anton-Regular.ttf);
     font-family: text2; 
   }
   @font-face {
-    src: url(text/Roboto-Light.ttf);
+    src: url(Text/Roboto-Light.ttf);
     font-family: robo;
   }
   .map-container-7{
